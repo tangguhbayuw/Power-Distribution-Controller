@@ -12,7 +12,8 @@ The Power Distribution Systems is divided into 4 kinds which are High Current Re
    - Maximum Output Voltage at maximum load: 11.4 V
    - Working temperature: 40 - 50 <sup>0</sup>C
    - Efficiency at maximum load (V<sub>IN</sub>: 12.5 V): 87.8%
-![This is image](https://drive.google.com/file/d/1OqEVj6raZnfj8pP52tlaFVmezXk-0arS/view?usp=share_link)
+![Screenshot_20230111_222158](https://user-images.githubusercontent.com/68314887/211847846-0f0f87cf-8ada-4913-b4d9-4e6102146b56.png)![Screenshot_20230111_222308](https://user-images.githubusercontent.com/68314887/211848025-1ee00b0c-fdf5-4553-a52e-954cb5bc01a6.png)
+
 2. High Current Output:
    - Input Voltage: 16 - 12.5 V
    - Output Voltage: Input Voltage
