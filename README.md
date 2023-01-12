@@ -72,3 +72,6 @@ Monitoring and Protection Systems is divided into 3 sub-systems which are Signal
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%202%20Top%20Side.png" width="45%" height="auto">
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%202%20Bottom%20Side.png" width="45%" height="auto">
    </p>
+<br>
+<br>
+For futher information about this project, please contact my email tangguhbayuw@gmail.com
