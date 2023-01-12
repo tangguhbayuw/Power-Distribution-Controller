@@ -3,8 +3,8 @@
 ## Introduction
 Power Distribution Controller is an electronic system that manage the power distribution of a system. It is controlled by a microcontroller where on this system a STM32F103C8T6 is used. The systems is divided into 2 sub-systems which are a power distributor systems, and monitoring and protection systems. This system is adapted from Formula SAE Power Distribution Controller by Daniel Baron with a lot of modifications
 <p align="center">
-   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Top%20Side.png" width="100%" height="auto">
-   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Bottom%20Side.png" width="100%" height="auto">
+<img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Top%20Side.png" width="100%" height="auto">
+<img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Bottom%20Side.png" width="100%" height="auto">
 
 ## Power Distributor Systems
 The Power Distribution Systems is divided into 4 kinds which are High Current Regulated Output, High Current Output, Low Current Regulated Output, and Low Current Output. The specifications of the systems is:
@@ -57,4 +57,18 @@ The regulated output channels use XL4005 buck converter as the controller which 
 ## Monitoring and Protection Systems
 Monitoring and Protection Systems is divided into 3 sub-systems which are Signal Processing 1, Signal Processing 2, and Microcontroller.
 1. Signal Processing 1
-   Signal Processing 1 is a system that process sensors data from all of the output channels. Because of the Power Distribution Controller is designed with 12 output channels, so the Signal Processing 1 is also designed to process 36 d
+   <p>
+   Signal Processing 1 is a system that process sensors data from all of the output channels. Because of the Power Distribution Controller is designed with 12 output channels, so the Signal Processing 1 is also designed to process 36 sensors data and send them to the microcontroller. The Signal Processing 1 is also designed to receive a digital input to enable/disable the High Current Regulated Output nad High Current Output.
+   </p>
+   <p align="center">
+   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%201%20Top%20Side.png" width="45%" height="auto">
+   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%201%20Bottom%20Side.png" width="45%" height="auto">
+   </p>
+2. Signal Processing 2
+   <p>
+   Signal Processing 2 is a system that sends all of the data from the Power Distribution Controller to another systems (depends on the user) using CAN Bus communication protocol. An MCP2551 CAN Bus transciever is used to do this task. Power Distribution Controller sends 65 data through the CAN Bus such as the current, voltage, and temperature value of the output channels, the condition of the output channels (OTP/OCP/OVP/UVP/Normal), input voltage of the power distribution controller, power distribution controller condition (UVP/OVP/Normal), and the digital inputs condition.
+   </p>
+   <p align="center">
+   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%202%20Top%20Side.png" width="45%" height="auto">
+   <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Signal%20Processing%202%20Bottom%20Side.png" width="45%" height="auto">
+   </p>
