@@ -1,7 +1,7 @@
 # Power Distribution Controller
 
 ## Introduction
-Power Distribution Controller is an electronic system that manage the power distribution of a system. It is controlled by a microcontroller where on this system a STM32F103C8T6 is used. The systems is divided into 2 sub-systems which are a power distributor systems, and monitoring and protection systems. This system is adapted from Formula SAE Power Distribution Controller by Daniel Baron with a lot of modifications
+Power Distribution Controller is an electronic system that manage the power distribution of a system. It is controlled by a microcontroller where on this system a STM32F103C8T6 is used. The systems is divided into 2 sub-systems which are a power distributor systems, and monitoring and protection systems. This system is adapted from Formula SAE Power Distribution Controller by Daniel Baron with a lot of modifications. The Power Distribution Controller has an overcurrent protection, overtemperature protection, overvoltage protection, and undervoltage protection for each output channels.
 <p align="center">
 <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Top%20Side.png" width="100%" height="auto">
 <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Power%20Distribution%20Controller%20Bottom%20Side.png" width="100%" height="auto">
