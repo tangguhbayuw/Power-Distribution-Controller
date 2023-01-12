@@ -1,1 +1,0 @@
-### High Current Regulated Output
