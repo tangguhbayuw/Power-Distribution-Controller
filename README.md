@@ -19,6 +19,7 @@ The Power Distribution Systems is divided into 4 kinds which are High Current Re
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/High%20Current%20Regulated%20Output%20Top%20Side.png" width="45%" height="auto">
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/High%20Current%20Regulated%20Output%20Bottom%20Side.png" width="45%" height="auto">
    </p>
+
 2. High Current Output:
    - Input Voltage: 16 - 12.5 V
    - Output Voltage: Input Voltage
@@ -50,3 +51,10 @@ The Power Distribution Systems is divided into 4 kinds which are High Current Re
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Low%20Current%20Output%20Top%20Side.png" width="45%" height="auto">
    <img src="https://github.com/tangguhbayuw/Power-Distribution-Controller/blob/main/img/Low%20Current%20Output%20Bottom%20Side.png" width="45%" height="auto">
    </p>
+<br>
+The regulated output channels use XL4005 buck converter as the controller which the High Current Regualted Output uses paralleled XL4005 circuit. The Power Distribution Controller uses 2 High Current Regulated Output, 2 High Current Output, 4 Low Current Regulated Output, and 4 Low Current Output. Each kind of the power distributor systems has its own current sensor, voltage sensor, and temperature sensor. The sensors data is sent to signal processing 1 module to further data processing.
+
+## Monitoring and Protection Systems
+Monitoring and Protection Systems is divided into 3 sub-systems which are Signal Processing 1, Signal Processing 2, and Microcontroller.
+1. Signal Processing 1
+   Signal Processing 1 is a system that process sensors data from all of the output channels. Because of the Power Distribution Controller is designed with 12 output channels, so the Signal Processing 1 is also designed to process 36 d
